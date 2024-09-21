@@ -1,6 +1,8 @@
+import "./Tarefa.css"
+
 function Tarefa(props){
     return (
-        <p style={{backgroundColor:"lightgray", textDecoration:"underline"}}>{props.titulo}</p>
+        <p className="tarefa">{props.user.name}: {props.titulo}</p>
     )
 }
 export default Tarefa

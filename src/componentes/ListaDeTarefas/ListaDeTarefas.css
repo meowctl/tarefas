@@ -1,0 +1,8 @@
+.lista-de-tarefas {
+    background-color: gray;
+    color: black;
+}
+
+#tarefas-completas {
+    text-decoration: line-through;
+}
