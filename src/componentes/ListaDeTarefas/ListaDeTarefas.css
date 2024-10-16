@@ -3,6 +3,10 @@
     color: black;
 }
 
-#tarefas-completas {
+#tarefas-completas .tarefa {
     text-decoration: line-through;
+}
+
+#tarefas-pendentes .tarefa {
+    cursor: pointer;
 }
